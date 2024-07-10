@@ -1,22 +1,14 @@
 .main-header-two__bottom {
   justify-content: space-around;
 }
+.logo-box-two:before {
+  border-right: 49px solid transparent;
+  border-bottom: 92px solid #060d29;
+}
 
 :root {
   --thm-green: #7ac356;
-  --thm-primary-gradient: linear-gradient(
-    to bottom,
-    rgb(45, 59, 88),
-    rgb(24, 34, 59),
-    rgb(4, 8, 33)
-  );
 }
-
-.logo-box-two:before {
-  border-right: 49px solid transparent;
-  border-bottom: 130px solid #060d29;
-}
-
 p,
 h1,
 h2,
@@ -213,7 +205,7 @@ ul .navbar-wrap ul li a {
 }
 
 .sticky-menu .logo-box-two:before {
-  border-bottom: 80px solid #060d29;
+  border-bottom: 80px solid #e2eade;
 }
 .scroll-top {
   background-color: #7ac356;
